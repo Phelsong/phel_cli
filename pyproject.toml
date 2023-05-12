@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "phel-cli"
+version = "0.1.0"
+description = "shell"
+authors = ["Josh S Wilkinson <JoshsWilkinson@Outlook.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "phel_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+typer = "^0.9.0"
+rich = "^13.3.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
