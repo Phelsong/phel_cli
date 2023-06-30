@@ -149,6 +149,18 @@ files = [
 ]
 
 [[package]]
+name = "pipe-viper"
+version = "0.1.2"
+description = "Pwsh utils for python"
+category = "main"
+optional = false
+python-versions = ">=3.8,<4.0"
+files = [
+    {file = "pipe_viper-0.1.2-py3-none-any.whl", hash = "sha256:14df0949d097f34f3f580b6f8a36bb88ca307dd59f9c8a0ae4210dace55b89c5"},
+    {file = "pipe_viper-0.1.2.tar.gz", hash = "sha256:96e7a51b6cb60e33e2f2e3c29e096d4e5ffb65984170933bd4572be23b55306f"},
+]
+
+[[package]]
 name = "platformdirs"
 version = "3.5.1"
 description = "A small Python package for determining appropriate platform-specific dirs, e.g. a \"user data dir\"."
@@ -235,4 +247,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "bde838a39ecfd185f03dcdd74aa0ce8f4ef8c4f2e8bab5ff999af0920d4378fe"
+content-hash = "e68affde996b8841ca8a12e8e828c527e06afbf1e7c7e6576eabb489a24c6785"

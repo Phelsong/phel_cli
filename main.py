@@ -19,6 +19,7 @@ def main():
 # ========================
 
 @app.command("help")
+def help():    
     print("help")
 
 # ========================
